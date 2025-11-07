@@ -26,7 +26,7 @@ Live, executable samples using the Black Duck Security Scan Action with Coverity
 
 | How To? | Details | Workflow File | Scan Results |
 |---------|---------|---------------|--------------|
-| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/coverity-cnc-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/coverity-cnc-workflow-samples/bridgecli/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://coverity-cnc-workflow-examples.github.io/bridgecli/)  |                  
+| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/coverity-cnc-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/coverity-cnc-workflow-samples/bridgecli/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://coverity-cnc-workflow-samples.github.io/bridgecli/)  |                  
 
 ## Helpful Links                                                                                                                                                                                                                         
 [Using the Black Duck Security Scan Action with Coverity Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-coverity.html)
