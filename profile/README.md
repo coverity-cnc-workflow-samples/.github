@@ -1,4 +1,9 @@
 # Coverity Workflow Samples                                                                                                                                                                                                                  
+## Table of Contents
+- [Overview](#overview)
+- [Workflows using Black Duck Security Scan Action](#workflows-using-black-duck-security-scan-action)
+- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
+- [Helpful Links](#helpful-links)
                                                                                                                                                                                                                                          
 ## Overview
 Live, executable samples using the Black Duck Security Scan Action with Coverity                                                                                                                                        
