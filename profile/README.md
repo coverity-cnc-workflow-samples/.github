@@ -1,16 +1,16 @@
 # Coverity Workflow Samples                                                                                                                                                                                                                  
 ## Table of Contents
 - [Overview](#overview)
-- [Workflows using Black Duck Security Scan Action](#workflows-using-black-duck-security-scan-action)
-- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
-- [Helpful Links](#helpful-links)
+- [Workflow Samples using Action](#workflow-samples-using-action)
+- [Workflow Samples using CLI](#workflow-samples-using-cli)
+- [Documentation](#documentation)
                                                                                                                                                                                                                                          
 ## Overview
 Live, executable samples using the Black Duck Security Scan Action with Coverity                                                                                                                                        
                                                                                                                                                                                                                                          
-## Workflows using Black Duck Security Scan Action                                                                                                                                                                                                                                                                                                                                                                                                           
-| How To? | Details | Workflow File | Scan Results |                                                                                                                                                                          
-|---------|-------------|---------------|---------------------|                                                                                                                                                                          
+## Workflow Samples using Action
+| How To? | Details | Workflow  | Results  | Status |
+|---------|---------|---------------|--------------|--------------|                                                                                                                                                                           
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/coverity-cnc-workflow-samples/basic-scan) | This is the recommended way to scan. A pre build step guarantees all the compiled code and artifacts are scanned for comprehensive vulnerability detection | [Workflow](https://github.com/coverity-cnc-workflow-samples/basic-scan/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://coverity-cnc-workflow-samples.github.io/basic-scan/) | 
 | [**Scan repository in an environment where build is not an option**](https://github.com/coverity-cnc-workflow-samples/install-directory-custom-paths) | This option is less accurate and should be used when you can’t build your repository | [Workflow](https://github.com/coverity-cnc-workflow-samples/install-directory-custom-paths/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://coverity-cnc-workflow-samples.github.io/install-directory-custom-paths/) |                                                                                                                                             
 | [**Add comments to PRs for new issues introduced through developer changes**](https://github.com/coverity-cnc-workflow-samples/pr-comments) | For each new vulnerable issue introduced by the developer's changes, this integration adds a comment to the pull request. PR comments let the developer quickly view, understand, and fix the issue before merging | [Workflow](https://github.com/coverity-cnc-workflow-samples/pr-comments/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://coverity-cnc-workflow-samples.github.io/pr-comments/) |                                                                                                                                                                
@@ -22,12 +22,11 @@ Live, executable samples using the Black Duck Security Scan Action with Coverity
 
 
                                                                                                                                                                                                     
-## Workflows using Bridge CLI
-
-| How To? | Details | Workflow File | Scan Results |
-|---------|---------|---------------|--------------|
+## Workflow Samples using CLI
+| How To? | Details | Workflow  | Results  | Status |
+|---------|---------|---------------|--------------|--------------|
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/coverity-cnc-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/coverity-cnc-workflow-samples/bridgecli/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://coverity-cnc-workflow-samples.github.io/bridgecli/)  |                  
 
-## Helpful Links                                                                                                                                                                                                                         
+## Documentation                                                                                                                                                                                                                         
 [Using the Black Duck Security Scan Action with Coverity Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-coverity.html)
  
